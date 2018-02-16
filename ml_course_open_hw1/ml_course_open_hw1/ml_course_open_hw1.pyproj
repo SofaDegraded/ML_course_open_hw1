@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>04cfb3c1-d916-4779-95fe-31f8551b2b63</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ml_course_open_hw1.py</StartupFile>
+    <StartupFile>ml_course_open_hw2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,9 +24,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="ml_course_open_hw1.py" />
+    <Compile Include="ml_course_open_hw2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="mlbootcamp5_train.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
